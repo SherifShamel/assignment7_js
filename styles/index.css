@@ -1,0 +1,8 @@
+#myQuote {
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+
+main {
+  overflow: hidden;
+}

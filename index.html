@@ -4,17 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Assignment</title>
+    <title>Assingment 8</title>
 
+    <!-- styles -->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/all.min.css">
     <link rel="stylesheet" href="styles/index.css">
+
 </head>
 
 <body>
+    <main>
+        <div class="container">
+            <h1 class="text-center my-4 fw-bold">Quote of the Day</h1>
+            <h2 class="text-center">Press the button below to recieve a random quote!</h2>
 
+            <div class="d-flex justify-content-center mt-4">
+                <div>
+                    <button class="btn btn-outline-info py-3" onclick="displayQuote()">Press Here to get a new
+                        Quote!</button>
+                </div>
+            </div>
 
+            <div class="text-center py-3 mt-4" id="myQuote">
 
+            </div>
+        </div>
+    </main>
 
     <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
